@@ -1,0 +1,186 @@
+TESTING ALSO INPUT INCORRECT VALUES
+
+MATCHER WINS TESTING
+
+
+PS D:\Ali\Dodgeball Assignment> java DodgeballGame      
+Here is the current Matcher Board:
+X X O O O X
+. . . . . .
+. . . . . .
+. . . . . .
+. . . . . .
+. . . . . .
+
+Here is the current Dodger Row:
+X . . . . .
+
+Dodger, what would you like to play next? (X or O): A
+Invalid input! You must enter 'X' or 'O'. Please try again.
+Here is the current Matcher Board:
+X X O O O X
+. . . . . .
+. . . . . .
+. . . . . .
+. . . . . .
+. . . . . .
+
+Here is the current Dodger Row:
+X . . . . .
+
+Dodger, what would you like to play next? (X or O): X      
+Here is the current Matcher Board:
+X X O O O X
+X X O O O O
+. . . . . .
+. . . . . .
+. . . . . .
+. . . . . .
+
+Here is the current Dodger Row:
+X X . . . .
+
+Dodger, what would you like to play next? (X or O): O
+Here is the current Matcher Board:
+X X O O O X
+X X O O O O
+X X X X X X
+. . . . . .
+. . . . . .
+. . . . . .
+
+Here is the current Dodger Row:   
+X X O . . .
+
+Dodger, what would you like to play next? (X or O): O
+Here is the current Matcher Board:
+X X O O O X
+X X O O O O
+X X X X X X
+X X O O X X
+. . . . . .
+. . . . . .
+
+Here is the current Dodger Row:
+X X O O . .
+
+Dodger, what would you like to play next? (X or O): O
+Here is the current Matcher Board:
+X X O O O X
+X X O O O O
+X X X X X X
+X X O O X X
+X X O O O O
+. . . . . .
+
+Here is the current Dodger Row:
+X X O O O .
+
+Dodger, what would you like to play next? (X or O): X
+The game has ended. Here are the final boards:
+Here is the current Matcher Board:
+X X O O O X
+X X O O O O
+X X X X X X
+X X O O X X
+X X O O O O
+O X O O O X
+
+Here is the current Dodger Row:
+X X O O O X
+
+Matcher Wins! Any row in matcherBoard matches dodgerRow.
+PS D:\Ali\Dodgeball Assignment> 
+
+
+DODGER WINS TESTING
+
+PS D:\Ali\Dodgeball Assignment> java DodgeballGame
+Here is the current Matcher Board:
+O O O X O X 
+. . . . . .
+. . . . . .
+. . . . . .
+. . . . . .
+. . . . . .
+
+Here is the current Dodger Row:
+X . . . . .
+
+Dodger, what would you like to play next? (X or O): O
+Here is the current Matcher Board:
+O O O X O X
+O O X X X X
+. . . . . .
+. . . . . .
+. . . . . .
+. . . . . .
+
+Here is the current Dodger Row:
+X O . . . .
+
+Dodger, what would you like to play next? (X or O): 5
+Invalid input! You must enter 'X' or 'O'. Please try again.
+Here is the current Matcher Board:
+O O O X O X
+O O X X X X
+. . . . . .
+. . . . . .
+. . . . . .
+. . . . . .
+
+Here is the current Dodger Row:
+X O . . . .
+
+Dodger, what would you like to play next? (X or O): X
+Here is the current Matcher Board:
+O O O X O X
+O O X X X X
+X O X O O X
+. . . . . .
+. . . . . .
+. . . . . .
+
+Here is the current Dodger Row:
+X O X . . .
+
+Dodger, what would you like to play next? (X or O): X
+Here is the current Matcher Board:
+O O O X O X
+O O X X X X
+X O X O O X
+O X X X X X
+. . . . . .
+. . . . . .
+
+Here is the current Dodger Row:
+X O X X . .
+
+Dodger, what would you like to play next? (X or O): X
+Here is the current Matcher Board:
+O O O X O X
+O O X X X X
+X O X O O X
+O X X X X X
+X X X X X X
+. . . . . .
+
+Here is the current Dodger Row:
+X O X X X .
+
+Dodger, what would you like to play next? (X or O): O
+The game has ended. Here are the final boards:
+Here is the current Matcher Board:
+O O O X O X
+O O X X X X
+X O X O O X
+O X X X X X
+X X X X X X
+O O X X X X
+
+Here is the current Dodger Row:
+X O X X X O
+
+Dodger Wins! No rows in matcherBoard match dodgerRow.
+
+
